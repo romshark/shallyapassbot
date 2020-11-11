@@ -16,5 +16,5 @@ TOKEN=<accesstoken> ./shallyapassbot [-admins <username>,...] [-logfmt (json|con
 Example:
 
 ```bash
-go build && TOKEN=7566345343:jKkL21xmsY_Qs_gHx60wqncQyL225sl2Y50 ./shallyapassbot -admins adminA,adminB -confirm-timeout 30s -ban-period 1m -debug -text-fmt-welcome 'Welcome, [{name}](tg://user?id={id})\\! Please confirm you are human by clicking the button below within {confirm-timeout}' -text-confirm 'Confirm'
+TOKEN=7566345343:jKkL21xmsY_Qs_gHx60wqncQyL225sl2Y50 ./shallyapassbot -admins adminA,adminB -confirm-timeout 30s -ban-period 1m -debug -text-fmt-welcome 'Welcome, [{name}](tg://user?id={id})\\! Please confirm you are human by clicking the button below within {confirm-timeout}' -text-confirm 'Confirm'
 ```
