@@ -4,7 +4,7 @@
 *.dll
 *.so
 *.dylib
-cmd/shallyapassbot
+cmd/shallyapassbot/shallyapassbot
 
 # Test binary, built with `go test -c`
 *.test
